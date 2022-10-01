@@ -42,6 +42,9 @@ export default function EditUser() {
    const onSendNewData = (e)=>{
         e.preventDefault()
         dispatch(editUser(newUserData))
+        if(!userLoadingStatus == "error"){
+            alert("User data is changed")
+        }
    }
 
 

@@ -1,0 +1,35 @@
+
+.dragons{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 50px;
+    .item{
+        display: flex;
+        min-height: 500px;
+        position: relative;
+        @media (max-width:1024px){
+            min-height: 300px;
+        }
+        a{
+            display: block;
+            img{
+                max-width: 500px;
+                @media (max-width:1024px){
+                    max-width: 300px;
+                }
+            }
+            :hover{
+                border: 2px solid green;
+            }
+        }
+
+        .favorite{
+            position: absolute;
+        }
+        .not-favorite{
+            position: absolute;
+        }
+    }
+}

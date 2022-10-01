@@ -1,0 +1,87 @@
+
+
+.editUser{
+    background: #E5E5E5;
+    height: 100%;
+    min-height: 900px;
+
+    .container{
+        max-width: 785px;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+    .alert{
+        display: flex;
+        min-height: 300px;
+        align-items:center;
+        width: 100%;
+    }
+
+    .uditUser-form{
+        min-height: 750px;
+        height: 100%;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        h1{
+            display: block;
+        }
+    }
+    .form-item{
+        min-height: 140px;
+        height: 100%;
+        background: #FFFFFF;
+        border: 1px solid #ECECEC;
+        border-radius: 10px;
+        padding:30px 40px;
+        margin-bottom: 30px;
+            label{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+                color: #3C4852;
+            }
+            input{
+                border: 1px solid #E6E1E1;
+                border-radius: 10px;
+                width: 100%;
+                min-height: 50px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 30px;
+                margin-bottom: 12px;
+                color: #3C4852;
+                margin-top: 12px;
+            }
+
+    }
+    .submit-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        button{
+            background: #FFCC80;
+            border-radius: 10px;
+            max-width: 290px;
+            min-height: 75px;
+            width: 100%;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 17px;
+            line-height: 20px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+    }
+}

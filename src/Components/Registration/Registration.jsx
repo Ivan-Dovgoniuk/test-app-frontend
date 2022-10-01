@@ -86,7 +86,7 @@ const registrationForm =
                                     <input id="password" 
                                             type="password"
                                             value={password}
-                                            minLength={1}
+                                            minLength={4}
                                             onChange={(e)=>enterPassword(e)}/>
                                 </label> 
                             </div>
